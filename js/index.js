@@ -77,7 +77,7 @@ function gameEngine() {
     // Part 1: Updating the snake array & Food
     if (isCollide(snakeArr)) {
         gameOverSound.play();
-        musicSound.pause();
+        // musicSound.pause();
         inputDir = { x: 0, y: 0 };
         speed = 3;
         count = 0;
@@ -86,7 +86,7 @@ function gameEngine() {
         bonusStatus = false;
         alert("Game Over. Press any key to play again!");
         snakeArr = [{ x: 10, y: 10 }];
-        musicSound.play();
+        // musicSound.play();
         score = 0;
         scoreBox.innerHTML = "Score: " + score;
         foodDiv.innerHTML = "Food: " + foodScore;
