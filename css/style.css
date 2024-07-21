@@ -79,6 +79,7 @@
     font-family: 'New Tegomin', serif;
 }
 .arrow{
+    all: unset;
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
     padding: 1rem;
@@ -98,5 +99,6 @@
     }
     .container{
         margin-bottom: 1rem;
+        margin-top: -2rem;
     }
 }
